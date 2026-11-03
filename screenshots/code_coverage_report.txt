@@ -1,0 +1,18 @@
+PS C:\Users\sujan\Desktop\SEM 5\SE\Lab_06\Lab_06_PES1UG24CS477> coverage run -m pytest CodeCoverageTest_xxxx_application.py
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\Users\sujan\Desktop\SEM 5\SE\Lab_06\Lab_06_PES1UG24CS477
+plugins: anyio-4.12.1, langsmith-0.6.1
+collected 20 items
+
+CodeCoverageTest_xxxx_application.py ....................                [100%]
+
+============================== 20 passed in 0.16s ==============================
+
+PS C:\Users\sujan\Desktop\SEM 5\SE\Lab_06\Lab_06_PES1UG24CS477> coverage report -m
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+CodeCoverageTest_xxxx_application.py      59      0   100%
+bike_share_rental.py                      40      0   100%
+--------------------------------------------------------------------
+TOTAL                                     99      0   100%
